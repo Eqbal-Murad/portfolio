@@ -29,7 +29,7 @@ const Footer: React.FC = () => {
                  className="block text-gray-400 hover:text-white transition-colors text-sm">
                 LinkedIn Profile
               </a>
-              <a href="mailto:contact@eqbalmurad.com"
+              <a href="mailto:me@eqbalmurad.com"
                  className="block text-gray-400 hover:text-white transition-colors text-sm">
                 Email Me
               </a>
@@ -59,7 +59,7 @@ const Footer: React.FC = () => {
                 <Github size={20} className="text-gray-400 hover:text-white" />
               </a>
               <a
-                href="mailto:contact@eqbalmurad.com"
+                href="mailto:me@eqbalmurad.com"
                 className="p-2 bg-slate-800 hover:bg-slate-700 rounded-lg transition-colors"
                 aria-label="Email"
               >

@@ -6,8 +6,8 @@ const Contact: React.FC = () => {
     {
       icon: <Mail className="text-blue-400" size={24} />,
       title: "Email",
-      value: "contact@eqbalmurad.com",
-      link: "mailto:contact@eqbalmurad.com"
+      value: "me@eqbalmurad.com",
+      link: "mailto:me@eqbalmurad.com"
     },
     {
       icon: <Linkedin className="text-blue-400" size={24} />,
@@ -89,7 +89,7 @@ const Contact: React.FC = () => {
 
             <div className="text-center">
               <a
-                href="mailto:contact@eqbalmurad.com"
+                href="mailto:me@eqbalmurad.com"
                 className="inline-flex items-center space-x-2 px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors font-medium text-lg"
               >
                 <Mail size={20} />
