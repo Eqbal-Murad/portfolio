@@ -69,11 +69,11 @@ resource "aws_s3_bucket_lifecycle_configuration" "portfolio" {
     status = "Enabled"
 
     noncurrent_version_expiration {
-      noncurrent_days = 30
+      noncurrent_days = 3
     }
 
     abort_incomplete_multipart_upload {
-      days_after_initiation = 7
+      days_after_initiation = 3
     }
   }
 }
