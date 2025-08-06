@@ -24,7 +24,6 @@ npm run build
 
 ```bash
 cd terraform
-cp terraform.tfvars.example terraform.tfvars
 # Edit terraform.tfvars with your values
 
 terraform init
@@ -61,14 +60,6 @@ aws cloudfront create-invalidation --distribution-id $DISTRIBUTION_ID --paths "/
 - **CloudFront**: Global CDN with SSL termination
 - **ACM**: Free SSL certificate (auto-renewal)
 - **Route53**: DNS with alias records to CloudFront
-
-## Cost
-
-- S3 hosting: ~$1-2/month
-- CloudFront: ~$1-5/month
-- Route53: ~$0.50/month
-- ACM Certificate: Free
-- **Total: ~$3-8/month**
 
 ## Troubleshooting
 

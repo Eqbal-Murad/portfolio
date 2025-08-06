@@ -3,9 +3,10 @@ name: Deploy Portfolio
 on:
   push:
     branches: [ main ]
+  workflow_dispatch:
 
 env:
-  AWS_REGION: us-west-2
+  AWS_REGION: ap-southeast-2
   S3_BUCKET: eqbalmurad.com-portfolio
   CLOUDFRONT_DISTRIBUTION_ID: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
 
