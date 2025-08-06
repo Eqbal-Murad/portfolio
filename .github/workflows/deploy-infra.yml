@@ -8,7 +8,7 @@ on:
 
 env:
   AWS_REGION: ap-southeast-2
-  TF_STATE_BUCKET: eqbalmurad-terraform-state
+  TF_STATE_BUCKET: eqbalmurad.com-terraform-state
   TF_STATE_KEY: portfolio/terraform.tfstate
   TF_VAR_aws_account_id: ${{ secrets.AWS_ACCOUNT_ID }}
 
