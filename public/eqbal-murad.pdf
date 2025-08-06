@@ -1,0 +1,166 @@
+%PDF-1.4
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+
+2 0 obj
+<<
+/Type /Pages
+/Kids [3 0 R]
+/Count 1
+>>
+endobj
+
+3 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 4 0 R
+/Resources <<
+/Font <<
+/F1 5 0 R
+/F2 6 0 R
+>>
+>>
+>>
+endobj
+
+4 0 obj
+<<
+/Length 2800
+>>
+stream
+BT
+/F1 24 Tf
+50 750 Td
+(EQBAL MURAD) Tj
+0 -30 Td
+/F2 12 Tf
+(Senior Architect in Platform Engineering) Tj
+0 -20 Td
+(Email: contact@eqbalmurad.com | LinkedIn: linkedin.com/in/eqbal-murad) Tj
+0 -40 Td
+/F1 16 Tf
+(PROFESSIONAL SUMMARY) Tj
+0 -20 Td
+/F2 11 Tf
+(Technical leader with extensive experience in cloud architecture, DevOps, platform) Tj
+0 -15 Td
+(engineering, and AI/ML integration. Specializing in AWS/Azure solutions, DevSecOps) Tj
+0 -15 Td
+(assessments, and agentic AI systems at Slalom Consulting.) Tj
+0 -30 Td
+/F1 16 Tf
+(EXPERIENCE) Tj
+0 -20 Td
+/F1 12 Tf
+(Senior Architect in Platform Engineering) Tj
+0 -15 Td
+/F2 11 Tf
+(Slalom Consulting | 2021 - Present) Tj
+0 -15 Td
+(• Led cross-functional product teams in creating custom software solutions) Tj
+0 -12 Td
+(• Designed AWS-based architectures aligned with business initiatives) Tj
+0 -12 Td
+(• Conducted cloud consulting pre-sales support and technical assessments) Tj
+0 -12 Td
+(• Executed large-scale AWS migration projects with zero-downtime strategies) Tj
+0 -12 Td
+(• Performed comprehensive DevSecOps assessments and security evaluations) Tj
+0 -12 Td
+(• Designed and implemented Azure AKS Landing Zones) Tj
+0 -12 Td
+(• Implemented AI-powered automation solutions using LangChain) Tj
+0 -30 Td
+/F1 16 Tf
+(TECHNICAL SKILLS) Tj
+0 -20 Td
+/F1 12 Tf
+(Cloud Platforms:) Tj
+0 -15 Td
+/F2 11 Tf
+(AWS (EC2, S3, Lambda, ECS, EKS), Azure AKS, Cloud Migration) Tj
+0 -15 Td
+/F1 12 Tf
+(Infrastructure:) Tj
+0 -15 Td
+/F2 11 Tf
+(Terraform, AWS CDK, Kubernetes, Docker, Helm, ArgoCD) Tj
+0 -15 Td
+/F1 12 Tf
+(Programming:) Tj
+0 -15 Td
+/F2 11 Tf
+(Python, TypeScript, Node.js, Java, Bash) Tj
+0 -15 Td
+/F1 12 Tf
+(AI/ML:) Tj
+0 -15 Td
+/F2 11 Tf
+(LangChain, LangGraph, RAG Workflows, Vector Databases, Claude AI) Tj
+0 -15 Td
+/F1 12 Tf
+(DevOps:) Tj
+0 -15 Td
+/F2 11 Tf
+(GitHub Actions, Azure DevOps, DevSecOps Assessments, CI/CD) Tj
+0 -30 Td
+/F1 16 Tf
+(CERTIFICATIONS) Tj
+0 -20 Td
+/F2 11 Tf
+(• AWS Certified Solutions Architect Associate) Tj
+0 -12 Td
+(• AWS Certified Developer Associate) Tj
+0 -12 Td
+(• AWS Certified SysOps Associate) Tj
+0 -12 Td
+(• HashiCorp Certified Terraform Associate) Tj
+0 -12 Td
+(• HashiCorp Certified Vault Associate) Tj
+0 -12 Td
+(• CNCF - Certified Kubernetes Administrator) Tj
+0 -12 Td
+(• Bachelor's Degree in Engineering and Technology) Tj
+ET
+endstream
+endobj
+
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+>>
+endobj
+
+6 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+endobj
+
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000274 00000 n 
+0000003126 00000 n 
+0000003193 00000 n 
+trailer
+<<
+/Size 7
+/Root 1 0 R
+>>
+startxref
+3256
+%%EOF

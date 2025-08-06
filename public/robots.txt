@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://eqbalmurad.com/sitemap.xml

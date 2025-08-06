@@ -1,0 +1,130 @@
+Projects History:
+Vline Integration Platform & Food Stuff North Island CI/CD Platform: (May 2024- till Date)
+Platform Engineering SME/ Pre-Sales Support
+• AWS Cloud Native Integration Platform for Vline: Acted as a Subject Matter Expert (SME) to draft a
+detailed RFP response for building an AWS cloud native integration platform. Collaborated with the
+
+sales team to develop a conceptual architecture, project plan, and cost estimation for a Minimum
+Viable Product (MVP) and a comprehensive 6-month devlierey project.
+• Comprehensive CI/CD Platform Build: Led the pre-sales effort to draft an RFP response for a CI/CD
+platform for FSNI NZ. This included designing a solution architecture, ensuring PCI-DSS compliance,
+planning the migration of repositories and pipelines from Bamboo, and providing detailed project
+planning, resourcing, and cost estimation.
+• Northern Health DevSeOps assessment: Conducted a comprehensive DevOps maturity assessment,
+involving the design and execution of multiple discovery workshops, user surveys, and interviews with
+various development teams. Utilized a custom DevOps maturity model to perform the assessment and
+delivered a detailed report with maturity ratings, recommendations, and action plans. Additionally,
+provided an executive summary and an effort vs. priority matrix for the recommendations.
+
+Intrepid Travel Authentication Uplift and Cloud Migration: (Oct 2023- April 2024)
+Engagement Lead/Technical Delivery Lead
+• Intrepid Authentication Modernization and AWS Cloud Migration: Led a comprehensive effort to
+modernize and enhance the authentication capabilities of Intrepid's main application, focusing on
+bolstering security, resilience, and overall user experience for internal teams. Simultaneously, the
+project involved the migration of this application and 50 additional apps to the AWS cloud.
+• Discovery and Goal Gathering: Initiated the project by conducting a two-week discovery phase, during
+which I collaborated with stakeholders to define goals and gather detailed requirements for the
+authentication system and cloud migration.
+• Architectural Design: Developed and presented four high-level AWS design options, ultimately
+recommending an approach that aligned with Intrepid's objectives. Subsequently, created a detailed
+target-state architecture leveraging Azure AD, HTTP API Gateway, VPC links, Custom Lambda
+Authorizer, Internal Application Load Balancer (ALB), and On-prem target groups. The infrastructure
+was deployed using CloudFormation.
+• Application and Database Migration : Led the second phase of a program billed at AUD 640K, focused
+on identifying requirements and migrating applications, FileShare, On-prem Active Directory, and
+databases to AWS. This phase also included enhancing the AWS Landing Zone, upgrading the Azure
+DevOps Pipeline, and evaluating ADO vs. GitHub Actions for the company's CI/CD platform
+Air New Zealand CI/CD Uplift: (Jan 2023-Oct 2023)
+Platform Architect/Technical Delivery Lead
+• Air New Zealand CI/CD Standardization (Cloud-Native Transformation): Spearheaded a
+transformative initiative at Air New Zealand to establish a uniform CI/CD experience for all developers,
+facilitating the migration of their applications to modern, cloud-native engineering patterns.
+
+• Architectural Framework and Policy Compliance: Developed an overarching architectural framework
+that served as the foundation for application-specific templates. Key to the project's success was not
+only delivering cloud-ready applications but ensuring secure, observable, and policy-compliant
+deployment through robust tooling.
+• CI/CD Uplift: Elevated the CI/CD process within Air New Zealand by introducing a standardized and
+developer-friendly onboarding approach for greenfield applications. Leveraged Microsoft Azure
+DevOps (ADO) for Source Control and ADO Pipelines for CI/CD, alongside Terraform to provision
+common ADO components.
+• Kubernetes Microservice Deployment: Implemented Kubernetes-based microservice deployments
+
+using AWS Elastic Kubernetes Service (EKS) and Helm for efficient application deployments and roll-
+back procedures.
+
+• Best-Practice Checks and Automated Rollbacks: Implemented a comprehensive suite of best-practice
+checks, including Infrastructure as Code scanning, Application dependency scanning, Static Code
+Analysis scanning, and thorough testing suites encompassing unit, component, contract, smoke,
+integration, and end-to-end testing. Automated rollback mechanisms ensured application reliability.
+BP OneFleet: (Jan 2022- Dec22)
+Platform Architect/Technical Delivery Lead
+• BP Infrastructure and Application Modernization: Played a pivotal role in BP's organization-wide
+initiative to rearchitect and modernize infrastructure and application patterns. As a key member of the
+Platform Team, I assumed responsibility for core infrastructure deployment, scalable application
+patterns, security, core pipelines, as well as logging and monitoring, employing tools such as
+Terraform, AWS CDK, and Terragrunt.
+• Security Implementation: Led the implementation of robust security controls across the Infrastructure
+Platform, deployments, and Core API. This entailed leveraging a diverse set of security-focused tools,
+including but not limited to Checkov, Open Policy Agent, and Checkmarx, to ensure the highest levels
+of data protection and compliance.
+• AWS Networking and Observability: Designed and executed a comprehensive AWS networking
+strategy and a multi-region DNS system to enhance performance and availability. Additionally, I
+architected and implemented an observability solution to provide real-time insights into system
+performance.
+• Infrastructure Delivery for Observability: Orchestrated the delivery of infrastructure components
+crucial to the observability solution, spanning a range of services across the AWS product suite. This
+included the setup of OpenSearch clusters, Cognito for secure authentication, DataDog ECS container
+monitoring for performance analysis, lambda logging, and various other integral components.
+RMIT Data Analytics Platform – (Aug21- Nov21)
+Cloud Engineer
+
+• Multi-Account AWS Landing Zone: Successfully established a Multi-Account AWS landing zone using
+AWS Control Tower, effectively managing multiple AWS accounts. This included the implementation of
+Service Control Policies (SCPs) for streamlined account governance and compliance.
+• DevOps Coaching: Provided invaluable mentorship to Data Engineers, imparting the latest DevOps
+tools and best practices, thereby enhancing their skill set and fostering a culture of continuous
+improvement.
+• CI/CD Pipeline Development: Designed and implemented an efficient branching strategy and CI/CD
+pipeline, facilitating the seamless deployment of a Data Lake solution. This optimization significantly
+reduced development cycle times and improved overall project efficiency.
+• Security Enhancement: Led efforts to enhance security practices within the organization,
+implementing measures to fortify data and infrastructure against potential threats, safeguarding
+critical assets, and ensuring regulatory compliance.
+Porter Davis Cloud Migration (Apr21- Aug21)
+Cloud Engineer
+• AWS Application Migration: Played a pivotal role in the successful migration of critical business
+applications to the AWS environment, ensuring minimal disruption and optimal performance.
+• Multi-Account AWS Landing Zone: Established a Multi-Account AWS landing zone utilizing AWS
+Control Tower, simplifying management and governance of multiple AWS accounts. Implemented
+Single Sign-On (SSO) for centralized access control to AWS accounts and business applications,
+enhancing security and operational efficiency.
+• Cloud-Native Desktop Virtualization: Led the delivery of a cutting-edge cloud-native desktop
+virtualization service, empowering employees to access a managed desktop environment from any
+supported device. This initiative significantly improved accessibility, flexibility, and remote work
+capabilities.
+• Infrastructure as Code (IaC): Leveraged Infrastructure as Code principles, specifically native
+CloudFormation, to automate resource provisioning and updates in a secure and repeatable manner.
+This approach streamlined infrastructure management, reducing manual errors and enhancing
+scalability.
+Department Of Transport – AWS Optimization Project (Jan15 - Apr21)
+Senior Technology Specialist
+• Solving Complex Challenges: Tackled critical and highly complex issues spanning multiple AWS
+services, such as EC2, CloudFormation, CloudTrail, CloudWatch, S3, ELB, RDS, DynamoDB, and EBS,
+ensuring optimal performance and reliability.
+• DevOps Collaboration: Collaborated in the development, testing, and deployment of user stories,
+incorporating DevOps best practices to enhance software delivery efficiency and quality.
+
+• Well-Architected Infrastructure: Ensured that infrastructure adhered to the AWS Well-Architected
+Framework, emphasizing operational excellence, security, reliability, performance efficiency, and cost
+optimization.
+• Technical Mentorship: Acted as a mentor, advisor, and technical support resource for the team,
+sharing insights and best practices in systems engineering and architecture, ultimately elevating team
+capabilities.
+Various Organizations (2006 – 2015)
+Software Engineering Lead/SysOps Lead/ Software Developer
+• Companies: BT, CGI, Telstra, PTV, Department of Transport
+Contributed as a developer on multiple projects for various high-profile organizations, including BT,
+CGI, Telstra, PTV, and the Department of Transport. This encompassed software development, coding,
+and collaboration on diverse projects, each with its unique challenges and requirements, contributing
+to a rich and varied skill set and experience.
