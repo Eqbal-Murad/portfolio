@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Experience from './pages/Experience';
 import Skills from './pages/Skills';
+import AISkills from './pages/AISkills';
 import Contact from './pages/Contact';
 import ErrorBoundary from './components/ErrorBoundary';
 import './App.css';
@@ -28,6 +29,7 @@ function App() {
               <Route path="/about" element={<About />} />
               <Route path="/experience" element={<Experience />} />
               <Route path="/skills" element={<Skills />} />
+              <Route path="/ai-skills" element={<AISkills />} />
               <Route path="/contact" element={<Contact />} />
             </Routes>
           </motion.main>

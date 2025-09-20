@@ -49,7 +49,7 @@ const Home: React.FC = () => {
             </h1>
             
             <h2 className="text-2xl md:text-3xl text-gray-300 mb-8">
-              Senior Platform Engineering Architect & AWS Solutions Expert
+              Senior Principal Engineer & AWS Solutions Expert
             </h2>
             
             <p className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">

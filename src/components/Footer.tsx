@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-xl font-bold text-white mb-4">Eqbal Murad</h3>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Senior Platform Engineering Architect passionate about building scalable, 
+              Senior Principal Engineer passionate about building scalable, 
               secure, and efficient cloud solutions.
             </p>
           </div>

@@ -57,7 +57,7 @@ const About: React.FC = () => {
             
             <div className="space-y-4 text-gray-300 leading-relaxed">
               <p>
-                As a Senior Architect in Platform Engineering at Slalom Consulting, I bring a unique 
+                As a Senior Principal Engineer at Slalom Consulting, I bring a unique 
                 blend of technical expertise and consultative approach to every project. My passion 
                 lies in bridging the gap between complex technical solutions and business objectives.
               </p>

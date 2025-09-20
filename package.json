@@ -1,7 +1,7 @@
 {
   "name": "@eqbal/portfolio",
   "version": "1.0.0",
-  "description": "Portfolio website for Eqbal Murad - Senior Platform Engineering Architect",
+  "description": "Portfolio website for Eqbal Murad - Senior Principal Engineer",
   "type": "module",
   "scripts": {
     "dev": "vite",
