@@ -57,21 +57,24 @@ const About: React.FC = () => {
             
             <div className="space-y-4 text-gray-300 leading-relaxed">
               <p>
-                As a Senior Principal Engineer at Slalom Consulting, I bring a unique 
-                blend of technical expertise and consultative approach to every project. My passion 
-                lies in bridging the gap between complex technical solutions and business objectives.
+                As a Principal Platform Engineer at Slalom Consulting, I bring 18+ years of expertise 
+                driving enterprise cloud transformation, platform modernization, and DevOps excellence. 
+                My passion lies in architecting and delivering secure, scalable cloud platforms for 
+                APRA-regulated and enterprise environments across AWS and Azure.
               </p>
               
               <p>
-                With extensive experience in cloud architecture, DevOps practices, platform 
-                engineering, and AI/ML integration, I've had the privilege of leading diverse teams and delivering 
-                transformative solutions for clients across various industries.
+                With advanced specialization in agentic AI solutions, including RAG architectures, 
+                multi-agent orchestration, and custom AI accelerators, I bridge infrastructure, security, 
+                and AI innovation to deliver business-critical outcomes. My proven track record includes 
+                leading significant platform engineering opportunities with consistently high success rates.
               </p>
               
               <p>
-                My approach combines hands-on technical leadership with strategic thinking and cutting-edge AI integration, 
-                ensuring that every solution not only meets immediate requirements but also 
-                scales effectively for future growth while leveraging the latest in artificial intelligence.
+                My approach combines strategic technical leadership with hands-on expertise in cloud architecture, 
+                DevOps practices, and cutting-edge AI integration, ensuring that every solution not only meets 
+                immediate requirements but also scales effectively for future growth while maintaining the 
+                highest security and compliance standards.
               </p>
             </div>
           </motion.div>

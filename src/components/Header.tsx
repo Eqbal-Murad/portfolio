@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Menu, X, Download, ExternalLink } from 'lucide-react';
+import { Menu, X, ExternalLink } from 'lucide-react';
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -54,17 +54,6 @@ const Header: React.FC = () => {
               </Link>
             ))}
             
-            {/* Resume Download */}
-            <a
-              href="/eqbal-murad.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center space-x-2 px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors"
-            >
-              <Download size={16} />
-              <span>Resume</span>
-            </a>
-
             {/* LinkedIn */}
             <a
               href="https://www.linkedin.com/in/eqbal-murad/"
@@ -111,16 +100,6 @@ const Header: React.FC = () => {
               ))}
               
               <div className="flex flex-col space-y-2 pt-2">
-                <a
-                  href="/eqbal-murad.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center space-x-2 px-3 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors"
-                >
-                  <Download size={16} />
-                  <span>Resume</span>
-                </a>
-                
                 <a
                   href="https://www.linkedin.com/in/eqbal-murad/"
                   target="_blank"

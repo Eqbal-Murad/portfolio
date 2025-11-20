@@ -8,72 +8,78 @@ const Skills: React.FC = () => {
       icon: <Cloud className="text-blue-400" size={32} />,
       title: "Cloud & Infrastructure",
       skills: [
-        { name: "AWS (EC2, S3, Lambda, ECS, EKS)", level: 95 },
-        { name: "Azure AKS & Landing Zones", level: 88 },
-        { name: "Cloud Migration Strategies", level: 92 },
-        { name: "Terraform", level: 90 },
-        { name: "AWS CDK", level: 85 }
+        { name: "AWS (EC2, EKS, Lambda, Control Tower)", level: 95 },
+        { name: "Azure (AKS, ARM Templates, CAF)", level: 90 },
+        { name: "Multi-Cloud Governance & Landing Zones", level: 92 },
+        { name: "Terraform & Terragrunt", level: 93 },
+        { name: "AWS CDK & CloudFormation", level: 90 },
+        { name: "Pulumi", level: 82 }
       ]
     },
     {
       icon: <Settings className="text-green-400" size={32} />,
       title: "DevOps & Automation",
       skills: [
-        { name: "Docker & Kubernetes", level: 92 },
-        { name: "DevSecOps Assessments", level: 90 },
-        { name: "GitHub Actions", level: 88 },
-        { name: "Azure DevOps", level: 85 },
-        { name: "Helm & ArgoCD", level: 80 }
+        { name: "Kubernetes (EKS, AKS, ECS)", level: 92 },
+        { name: "Docker & Container Orchestration", level: 93 },
+        { name: "GitHub Actions & GitLab CI", level: 90 },
+        { name: "Azure DevOps", level: 88 },
+        { name: "Helm, ArgoCD & Kustomize", level: 85 },
+        { name: "Service Mesh (Istio, Linkerd)", level: 80 }
       ]
     },
     {
       icon: <Code className="text-purple-400" size={32} />,
       title: "Programming & Scripting",
       skills: [
-        { name: "Python", level: 90 },
-        { name: "TypeScript/Node.js", level: 88 },
+        { name: "Python", level: 92 },
+        { name: "TypeScript & Node.js", level: 90 },
         { name: "Java", level: 85 },
-        { name: "Bash Scripting", level: 92 }
+        { name: "Bash Scripting", level: 93 }
       ]
     },
     {
       icon: <Database className="text-orange-400" size={32} />,
-      title: "Serverless & Containers",
+      title: "Serverless & Event-Driven",
       skills: [
-        { name: "AWS Lambda", level: 90 },
-        { name: "Serverless Framework", level: 85 },
-        { name: "AWS SAM", level: 88 },
-        { name: "Container Orchestration", level: 92 }
+        { name: "AWS Lambda & Step Functions", level: 92 },
+        { name: "API Gateway & EventBridge", level: 90 },
+        { name: "Serverless Framework & AWS SAM", level: 88 },
+        { name: "ECS & Fargate", level: 87 }
       ]
     },
     {
       icon: <Monitor className="text-cyan-400" size={32} />,
       title: "Observability & Monitoring",
       skills: [
-        { name: "OpenTelemetry", level: 85 },
-        { name: "Prometheus & Grafana", level: 88 },
-        { name: "Datadog", level: 82 },
-        { name: "CloudWatch", level: 90 }
+        { name: "OpenTelemetry", level: 88 },
+        { name: "Prometheus & Grafana", level: 90 },
+        { name: "Datadog & CloudWatch", level: 92 },
+        { name: "ELK Stack & OpenSearch", level: 85 },
+        { name: "Splunk", level: 78 }
       ]
     },
     {
       icon: <Shield className="text-red-400" size={32} />,
       title: "Security & Compliance",
       skills: [
-        { name: "AWS Security Best Practices", level: 88 },
-        { name: "Infrastructure Security", level: 85 },
-        { name: "Compliance Frameworks", level: 80 },
-        { name: "Identity & Access Management", level: 87 }
+        { name: "Checkov & Open Policy Agent", level: 90 },
+        { name: "Snyk & SonarQube", level: 88 },
+        { name: "Checkmarx & Security Hub", level: 85 },
+        { name: "APRA Compliance & PCI-DSS", level: 90 },
+        { name: "IAM & Access Management", level: 92 }
       ]
     },
     {
       icon: <Brain className="text-indigo-400" size={32} />,
-      title: "AI & Agentic AI",
+      title: "Agentic AI & ML",
       skills: [
-        { name: "LangChain & LangGraph", level: 85 },
-        { name: "Vector Databases & RAG", level: 82 },
-        { name: "LLM Integration (Claude, Llama)", level: 88 },
-        { name: "AI Agent Frameworks", level: 80 }
+        { name: "Amazon Bedrock & AgentCore", level: 88 },
+        { name: "LangGraph & Strands", level: 85 },
+        { name: "RAG Architectures & Vector DBs", level: 87 },
+        { name: "Lambda MCP & Tool Integration", level: 85 },
+        { name: "Transformer Models", level: 82 },
+        { name: "LLM Integration (Claude, Amazon Q)", level: 90 }
       ]
     }
   ];
@@ -89,15 +95,16 @@ const Skills: React.FC = () => {
   ];
 
   const methodologies = [
-    "Agile/Scrum",
-    "DevOps Practices",
-    "DevSecOps Assessments",
-    "Cloud Migration Strategies",
-    "Pre-Sales Technical Support",
+    "Agile/Scrum & SAFe",
+    "DevOps & DevSecOps Practices",
     "Site Reliability Engineering (SRE)",
     "Infrastructure as Code (IaC)",
-    "Continuous Integration/Deployment",
-    "Microservices Architecture"
+    "GitOps & Continuous Deployment",
+    "Cloud Adoption Framework (CAF)",
+    "Microservices Architecture",
+    "Event-Driven Architecture",
+    "Platform Engineering",
+    "Technical Pre-Sales & RFP Leadership"
   ];
 
   return (

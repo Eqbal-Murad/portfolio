@@ -7,28 +7,28 @@ const Home: React.FC = () => {
   const highlights = [
     {
       icon: <Cloud className="text-blue-400" size={24} />,
-      title: "Cloud Architecture",
-      description: "AWS-based solutions aligned with business objectives"
+      title: "Multi-Cloud Architecture",
+      description: "AWS & Azure landing zones with APRA compliance and enterprise governance"
     },
     {
       icon: <Code className="text-green-400" size={24} />,
       title: "Platform Engineering",
-      description: "Cutting-edge solutions using Python, TypeScript, Java"
+      description: "Modern platforms using Terraform, Kubernetes, and IaC best practices"
     },
     {
       icon: <Settings className="text-purple-400" size={24} />,
-      title: "DevOps Excellence",
-      description: "Cloud-native and external tools for streamlined operations"
+      title: "DevOps & SRE",
+      description: "CI/CD automation, observability, and security-first DevOps practices"
     },
     {
       icon: <Brain className="text-indigo-400" size={24} />,
-      title: "AI & Agentic Systems",
-      description: "Building intelligent automation with LLMs, RAG workflows, and agent frameworks"
+      title: "Agentic AI Solutions",
+      description: "Building intelligent systems with Amazon Bedrock, LangGraph, and RAG architectures"
     },
     {
       icon: <Users className="text-orange-400" size={24} />,
       title: "Technical Leadership",
-      description: "Leading cross-functional teams and client engagements"
+      description: "RFP leadership, solution architecture, and cross-functional team management"
     }
   ];
 
@@ -49,7 +49,7 @@ const Home: React.FC = () => {
             </h1>
             
             <h2 className="text-2xl md:text-3xl text-gray-300 mb-8">
-              Senior Principal Engineer & AWS Solutions Expert
+              Senior Principal - Platform Engineering & Cloud Solutions Expert
             </h2>
             
             <p className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">

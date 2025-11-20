@@ -4,146 +4,154 @@ import { Code, Cloud, Shield, Brain, ChevronRight } from 'lucide-react';
 const Experience: React.FC = () => {
   const projects = [
     {
-      title: "AWS Cloud Native Integration Platform",
-      type: "Platform Engineering & Pre-Sales",
+      title: "APRA-Compliant Data Center Exit & Cloud Migration",
+      type: "Principal Migration Architect",
       icon: <Cloud className="text-blue-400" size={24} />,
-      description: "Led pre-sales efforts for AWS cloud native integration platform, developing conceptual architecture and comprehensive project planning for MVP and 6-month delivery.",
-      technologies: ["AWS", "Integration Platform", "Solution Architecture", "Cost Estimation", "RFP Response"],
+      description: "Led enterprise-scale migration of APRA-governed insurance applications from VMware to AWS under Migration Acceleration Program, ensuring full regulatory compliance.",
+      technologies: ["AWS Control Tower", "CloudFormation", "Terraform", "AWS Migration Hub", "Application Migration Service", "Security Hub"],
       achievements: [
-        "Drafted detailed RFP responses for cloud native integration solutions",
-        "Developed conceptual architecture and project plans",
-        "Provided comprehensive cost estimation and resource planning"
+        "Architected secure AWS landing zones with full APRA regulatory compliance and governance frameworks",
+        "Designed and executed zero-downtime migration strategy for business-critical workloads",
+        "Delivered comprehensive security controls, operational playbooks, and disaster recovery procedures",
+        "Achieved 100% data integrity with minimal business disruption across regulated environment"
       ]
     },
     {
-      title: "Enterprise CI/CD Platform",
-      type: "DevOps & Compliance",
-      icon: <Code className="text-green-400" size={24} />,
-      description: "Designed comprehensive CI/CD platform with PCI-DSS compliance, including migration strategy from legacy systems and detailed implementation roadmap.",
-      technologies: ["CI/CD", "PCI-DSS", "Bamboo Migration", "Pipeline Architecture", "Compliance"],
+      title: "Azure Kubernetes Landing Zone for Enterprise",
+      type: "Azure Cloud Architect",
+      icon: <Cloud className="text-cyan-400" size={24} />,
+      description: "Designed and delivered production-grade, CAF-compliant AKS platform for enterprise application hosting with comprehensive security and governance.",
+      technologies: ["Azure Kubernetes Service", "Terraform Cloud", "Azure DevOps", "Azure Policy", "Private Endpoints", "Azure Firewall"],
       achievements: [
-        "Designed solution architecture ensuring PCI-DSS compliance",
-        "Planned migration of repositories and pipelines from Bamboo",
-        "Delivered detailed project planning and resource allocation"
+        "Led design workshops and created comprehensive Cloud Adoption Framework (CAF) aligned architecture",
+        "Delivered high-performance AKS landing zone with hub-spoke networking and Private Link",
+        "Implemented Infrastructure as Code using Terraform Cloud with Azure DevOps integration",
+        "Established governance policies, RBAC, and security controls meeting enterprise standards"
       ]
     },
     {
-      title: "DevSecOps Maturity Assessment",
-      type: "Assessment & Strategy",
-      icon: <Shield className="text-red-400" size={24} />,
-      description: "Conducted comprehensive DevOps maturity assessment using custom frameworks, including discovery workshops, surveys, and stakeholder interviews.",
-      technologies: ["DevOps Maturity Model", "Assessment Framework", "Workshop Facilitation", "Strategic Planning"],
+      title: "Platform Engineering RFP Leadership",
+      type: "Principal Platform Engineering SME",
+      icon: <Shield className="text-purple-400" size={24} />,
+      description: "Drove platform engineering growth through technical pre-sales and solution architecture, leading multiple RFP initiatives across various sectors.",
+      technologies: ["AWS", "Azure", "Terraform", "GitHub Actions", "Azure DevOps", "API Gateway", "EventBridge", "AKS"],
       achievements: [
-        "Designed and executed multiple discovery workshops",
-        "Delivered detailed maturity ratings and recommendations",
-        "Provided executive summary with effort vs. priority matrix"
+        "Led technical response for enterprise platform engineering opportunities with high success rate",
+        "Contributed to strategic offerings: Internal Developer Platform (IDP), DevSecOps Framework, AKS Accelerator",
+        "Developed conceptual architectures, project plans, and cost models for FSI, government, and retail sectors",
+        "Designed AWS cloud-native integration platform with API Gateway, EventBridge, Lambda, and Step Functions"
       ]
     },
     {
       title: "Authentication Modernization & Cloud Migration",
-      type: "Technical Delivery Lead",
-      icon: <Shield className="text-purple-400" size={24} />,
-      description: "Led comprehensive authentication system modernization and AWS cloud migration for 50+ applications, focusing on security, resilience, and user experience.",
-      technologies: ["Azure AD", "AWS API Gateway", "Lambda Authorizer", "CloudFormation", "VPC Links", "ALB"],
+      type: "Engagement Lead / Technical Delivery Lead",
+      icon: <Shield className="text-orange-400" size={24} />,
+      description: "Led authentication uplift and 50+ application migration to AWS for global travel company, implementing hybrid authentication solution.",
+      technologies: ["Azure AD", "AWS API Gateway", "Lambda", "CloudFormation", "Application Load Balancer", "VPC", "AWS Migration Services"],
       achievements: [
-        "Developed four high-level AWS design options with detailed architecture",
-        "Implemented Azure AD integration with custom Lambda authorizers",
-        "Successfully migrated 50+ applications to AWS cloud infrastructure"
+        "Conducted comprehensive discovery phase defining security and migration requirements",
+        "Architected hybrid authentication solution with Azure AD, API Gateway, Lambda Authorizers, and Internal ALB",
+        "Designed AWS landing zone expansion with enhanced security, networking, and governance",
+        "Led parallel workstreams: application migration, file share migration, Active Directory integration"
       ]
     },
     {
-      title: "Enterprise CI/CD Standardization",
-      type: "Platform Architect",
-      icon: <Code className="text-cyan-400" size={24} />,
-      description: "Established uniform CI/CD experience for enterprise developers, facilitating migration to modern cloud-native engineering patterns with comprehensive automation.",
-      technologies: ["Azure DevOps", "Terraform", "AWS EKS", "Helm", "Kubernetes", "Infrastructure Scanning"],
+      title: "Cloud-Native CI/CD Transformation",
+      type: "Platform Architect / Technical Delivery Lead",
+      icon: <Code className="text-green-400" size={24} />,
+      description: "Standardized developer experience and CI/CD practices across enterprise airline applications with comprehensive automation and security.",
+      technologies: ["AWS EKS", "Azure DevOps", "Terraform", "Helm", "Kubernetes", "Checkov", "Snyk", "SonarQube", "Datadog"],
       achievements: [
-        "Developed standardized developer onboarding for greenfield applications",
-        "Implemented Kubernetes-based microservice deployments using AWS EKS",
-        "Created comprehensive testing suites with automated rollback mechanisms"
+        "Established unified CI/CD framework for cloud-native microservices deployment",
+        "Designed reusable application templates with embedded security, observability, and compliance controls",
+        "Implemented comprehensive testing pyramid: unit, component, contract, smoke, integration, E2E",
+        "Integrated automated security scanning: IaC (Checkov), dependency (Snyk), SAST (SonarQube)"
       ]
     },
     {
       title: "Infrastructure & Application Modernization",
-      type: "Platform Team Lead",
-      icon: <Cloud className="text-orange-400" size={24} />,
-      description: "Led organization-wide infrastructure modernization initiative, implementing scalable application patterns, security controls, and comprehensive observability solutions.",
-      technologies: ["Terraform", "AWS CDK", "Terragrunt", "Checkov", "Open Policy Agent", "Checkmarx", "OpenSearch", "DataDog"],
+      type: "Platform Architect / Technical Delivery Lead",
+      icon: <Cloud className="text-indigo-400" size={24} />,
+      description: "Core platform team member driving global infrastructure transformation, implementing security-first approach with comprehensive observability.",
+      technologies: ["AWS CDK", "Terraform", "Terragrunt", "OpenSearch", "DataDog", "ECS", "Lambda", "Transit Gateway", "Route53"],
       achievements: [
-        "Implemented robust security controls across infrastructure and applications",
-        "Designed multi-region DNS system and AWS networking strategy",
-        "Architected observability solution with OpenSearch and DataDog integration"
+        "Architected scalable, multi-region infrastructure platform using Terraform, AWS CDK, and Terragrunt",
+        "Implemented security-first approach with Checkov, Open Policy Agent, and Checkmarx integration",
+        "Designed multi-region networking with AWS Transit Gateway and intelligent DNS routing",
+        "Delivered comprehensive observability stack with OpenSearch, DataDog ECS monitoring, and centralized logging"
       ]
     },
     {
       title: "Multi-Account AWS Landing Zone",
-      type: "Cloud Engineering",
-      icon: <Cloud className="text-indigo-400" size={24} />,
-      description: "Established enterprise-grade AWS landing zones using Control Tower, implementing governance, compliance, and security best practices across multiple accounts.",
-      technologies: ["AWS Control Tower", "Service Control Policies", "AWS SSO", "CloudFormation", "Data Lake"],
+      type: "Cloud Platform Engineer",
+      icon: <Cloud className="text-blue-400" size={24} />,
+      description: "Established enterprise-grade AWS landing zones using Control Tower, implementing governance, compliance, and security best practices.",
+      technologies: ["AWS Control Tower", "Service Control Policies", "AWS SSO", "CloudFormation", "Data Lake", "S3", "Glue", "Athena"],
       achievements: [
-        "Implemented Service Control Policies for account governance",
-        "Designed efficient CI/CD pipelines for Data Lake solutions",
-        "Enhanced security practices and regulatory compliance"
+        "Deployed multi-account AWS landing zone with organizational SCPs for enhanced governance",
+        "Implemented data lake architecture with appropriate security and access controls",
+        "Designed and delivered CI/CD pipelines optimized for data engineering workflows",
+        "Enhanced security posture with comprehensive compliance monitoring and remediation"
       ]
     },
     {
       title: "AI-Powered Automation Solutions",
-      type: "AI/ML Integration",
+      type: "AI/ML Integration & Innovation",
       icon: <Brain className="text-pink-400" size={24} />,
-      description: "Implemented AI-powered automation solutions using LangChain and vector databases for intelligent document processing and knowledge retrieval systems.",
-      technologies: ["LangChain", "Vector Databases", "RAG Workflows", "Claude AI", "LLM Integration", "Agentic AI"],
+      description: "Implemented advanced agentic AI solutions using modern frameworks for intelligent document processing, multi-agent orchestration, and knowledge retrieval systems.",
+      technologies: ["Amazon Bedrock", "Bedrock AgentCore", "LangGraph", "Strands", "Lambda MCP", "Vector Databases", "RAG Architectures", "Transformer Models"],
       achievements: [
-        "Developed RAG workflows for intelligent document processing",
-        "Integrated LLMs into enterprise applications for enhanced user experiences",
-        "Built agentic AI systems for automated code review and infrastructure optimization"
+        "Developed RAG workflows for intelligent document processing with semantic search capabilities",
+        "Built multi-agent orchestration systems using LangGraph and Strands frameworks",
+        "Created custom AI accelerators with context memory, tool integrations, and authentication flows",
+        "Implemented secure AI solutions with Lambda/MCP integration and inbound/outbound authentication"
       ]
     }
   ];
 
   const coreCompetencies = [
     {
-      category: "Cloud Architecture & Migration",
+      category: "Cloud & Platform Engineering",
       items: [
-        "Designing scalable AWS and Azure-based solutions",
-        "Leading large-scale cloud migration projects with minimal downtime",
-        "Implementing Infrastructure as Code using Terraform and CDK",
-        "Designing Azure AKS Landing Zones for enterprise Kubernetes deployments",
-        "Conducting cloud consulting pre-sales support and technical assessments",
-        "Optimizing cloud costs and performance across multi-cloud environments"
+        "Multi-cloud architecture (AWS, Azure) with emphasis on landing zones, governance, and compliance",
+        "Enterprise platform modernization, migration strategies, and cloud-native transformation",
+        "Infrastructure as Code (Terraform, Terragrunt, CloudFormation, AWS CDK, Pulumi)",
+        "Container orchestration (Kubernetes, EKS, AKS, ECS) and serverless architectures",
+        "APRA-compliant and PCI-DSS regulated environment design and implementation",
+        "Cost optimization strategies and multi-cloud governance frameworks"
       ]
     },
     {
-      category: "DevOps & Platform Engineering",
+      category: "DevOps & Site Reliability Engineering",
       items: [
-        "Building CI/CD pipelines and automation workflows",
-        "Conducting comprehensive DevSecOps assessments and security evaluations",
-        "Implementing observability and monitoring solutions",
-        "Container orchestration with Kubernetes, ECS, and Azure AKS",
-        "Serverless architecture design and implementation",
-        "Security-first DevOps practices and compliance automation"
+        "CI/CD pipeline design and implementation (Azure DevOps, GitHub Actions, GitLab CI)",
+        "Site Reliability Engineering practices, observability, and incident management",
+        "Security automation, compliance frameworks, and DevSecOps best practices",
+        "Infrastructure scanning (Checkov, OPA) and application security (Snyk, SonarQube, Checkmarx)",
+        "Performance optimization, capacity planning, and infrastructure scalability",
+        "GitOps practices and automated deployment strategies"
       ]
     },
     {
-      category: "AI & Machine Learning",
+      category: "Agentic AI & Innovation",
       items: [
-        "Designing and implementing RAG (Retrieval-Augmented Generation) workflows",
-        "Building agentic AI systems with LangChain and LangGraph frameworks",
-        "Integrating LLMs (Anthropic Claude, Amazon Q, Llama) into enterprise applications",
-        "Developing vector database solutions for semantic search and knowledge retrieval",
-        "Creating AI-powered automation tools for code generation and review",
-        "Implementing conversational AI interfaces using modern LLM APIs"
+        "Advanced AI/ML architectures: Transformer models, RAG systems, multi-agent orchestration",
+        "Framework expertise: Amazon Bedrock, Bedrock AgentCore, LangGraph, Strands",
+        "Custom AI accelerators with context memory, tool integrations, and authentication flows",
+        "Secure AI implementations with Lambda/MCP, inbound/outbound authentication",
+        "Vector database solutions for semantic search and knowledge retrieval",
+        "LLM integration (Amazon Bedrock, Anthropic Claude, Amazon Q) into enterprise applications"
       ]
     },
     {
       category: "Technical Leadership & Strategy",
       items: [
-        "Leading cross-functional product teams in software development",
-        "Providing consultative guidance from requirements to deployment",
-        "Mentoring team members on best practices and emerging technologies",
-        "Driving technical decision-making and architecture reviews",
-        "Presenting technical solutions to executive stakeholders",
-        "Managing client relationships and expectations"
+        "Technical pre-sales, RFP leadership, and solution architecture for enterprise opportunities",
+        "Cross-functional team leadership, stakeholder management, and executive communication",
+        "Mentoring teams on best practices, emerging technologies, and platform engineering",
+        "Driving technical decision-making and architecture reviews for enterprise solutions",
+        "Agile delivery, program management, and strategic technology roadmap development",
+        "Client relationship management and consultative guidance from requirements to deployment"
       ]
     }
   ];

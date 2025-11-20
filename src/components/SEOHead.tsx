@@ -9,9 +9,9 @@ interface SEOHeadProps {
 }
 
 const SEOHead: React.FC<SEOHeadProps> = ({
-  title = "Eqbal Murad - Senior Principal Engineer | DevOps & Cloud Solutions",
-  description = "Eqbal Murad - Senior Principal Engineer & AWS Solutions Expert. Specializing in cloud architecture, DevOps, AI/ML integration, and technical leadership. Available for consulting.",
-  keywords = "Eqbal Murad, Senior Principal Engineer, AWS Solutions Architect, DevOps Engineer, Cloud Migration Expert, DevSecOps Consultant",
+  title = "Eqbal Murad - Principal Platform Engineer | Cloud & DevOps Solutions",
+  description = "Eqbal Murad - Principal Platform Engineer with 18+ years expertise in cloud transformation, APRA-compliant architectures, and agentic AI solutions. Specializing in AWS, Azure, platform engineering, and technical leadership.",
+  keywords = "Eqbal Murad, Principal Platform Engineer, AWS Solutions Architect, Azure Cloud Architect, DevOps Engineer, Platform Engineering, APRA Compliance, Agentic AI",
   canonical = "https://eqbalmurad.com",
   ogImage = "https://eqbalmurad.com/og-image.jpg"
 }) => {

@@ -108,18 +108,18 @@ const Contact: React.FC = () => {
             <h3 className="text-2xl font-bold text-white mb-6 text-center">What I Can Help With</h3>
             <div className="grid md:grid-cols-2 gap-4">
               <ul className="space-y-3 text-gray-300">
-                <li>• Cloud architecture and migration strategies (AWS/Azure)</li>
-                <li>• Pre-sales technical support and solution assessments</li>
-                <li>• DevSecOps assessments and security evaluations</li>
-                <li>• Azure AKS Landing Zone design and implementation</li>
-                <li>• AI/ML integration and agentic system development</li>
+                <li>• APRA-compliant cloud architecture and migration</li>
+                <li>• AWS & Azure landing zones design and implementation</li>
+                <li>• Platform engineering and RFP technical leadership</li>
+                <li>• DevSecOps assessments and compliance frameworks</li>
+                <li>• Agentic AI and multi-agent orchestration systems</li>
               </ul>
               <ul className="space-y-3 text-gray-300">
-                <li>• RAG workflows and vector database implementation</li>
-                <li>• Platform engineering and DevOps implementation</li>
-                <li>• Technical leadership and team mentoring</li>
-                <li>• Infrastructure automation and optimization</li>
-                <li>• Consulting and strategic planning</li>
+                <li>• RAG architectures and vector database solutions</li>
+                <li>• Enterprise CI/CD platform modernization</li>
+                <li>• Infrastructure as Code (Terraform, Terragrunt, CDK)</li>
+                <li>• Kubernetes and container orchestration (EKS, AKS)</li>
+                <li>• Technical leadership and strategic consulting</li>
               </ul>
             </div>
           </motion.div>

@@ -12,8 +12,8 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-xl font-bold text-white mb-4">Eqbal Murad</h3>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Senior Principal Engineer passionate about building scalable, 
-              secure, and efficient cloud solutions.
+              Principal Platform Engineer passionate about building scalable, 
+              secure, and efficient cloud solutions with advanced AI integration.
             </p>
           </div>
 
@@ -21,10 +21,6 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="text-lg font-semibold text-white mb-4">Quick Links</h4>
             <div className="space-y-2">
-              <a href="/eqbal-murad.pdf" target="_blank" rel="noopener noreferrer" 
-                 className="block text-gray-400 hover:text-white transition-colors text-sm">
-                Download Resume
-              </a>
               <a href="https://www.linkedin.com/in/eqbal-murad/" target="_blank" rel="noopener noreferrer"
                  className="block text-gray-400 hover:text-white transition-colors text-sm">
                 LinkedIn Profile
